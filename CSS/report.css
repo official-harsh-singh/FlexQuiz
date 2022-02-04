@@ -1,0 +1,45 @@
+#Print {
+    background-image: linear-gradient(to right top, #2f337d, #973281, #dd4267, #fa7b3c, #ebbf12);
+    margin-left: 15pc;
+    border: 2px solid black;
+    padding-right: 2pc;
+    padding-left: 2pc;
+    font-size: 1.8pc;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to right top, #2f337d, #973281, #dd4267, #fa7b3c, #ebbf12);
+}
+
+#img1 {
+    width: 8pc;
+    margin-left: -2pc;
+}
+
+#main-logo {
+    width: 10pc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2pc;
+}
+
+button {
+    border-radius: 2pc;
+    width: 11pc;
+    height: 2pc;
+    background-color: burlywood;
+}
+
+#buttons1 {
+    text-align: left;
+    /* padding-bottom: 8pc; */
+    margin-top: -4pc;
+}
+
+#buttons2 {
+    text-align: right;
+    margin-top: -3pc;
+}

@@ -1,0 +1,24 @@
+#logo {
+    width: 15pc;
+    height: 15pc;
+    margin-top: 2pc;
+    }
+    
+    #logo1 {
+    width: 30pc;
+    height: 15pc;
+    margin-top: 2pc;
+    }
+    
+    h2 {
+    color: rgb(196, 4, 132);
+    }
+    
+    #btn {
+    margin-left: 71pc;
+    }
+    
+    #bd {
+    background-image: linear-gradient(to right top, #e0007f, #bb3491, #934797, #6e5090, #52527f, #5b5480, #625781, #6a5982, #995b8c, #c95a82, #ec6266, #fa7b3c);
+    background-attachment: fixed;
+    }

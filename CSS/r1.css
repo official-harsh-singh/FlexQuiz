@@ -1,0 +1,50 @@
+h1{
+    color:rgb(47, 10, 209);
+    font-size:67px;
+}
+
+.form{
+    width: 800px;
+    padding: 0px 231px;
+    font-size: 28px;
+    font-family: arial;
+    display: block;
+}
+
+.form img{
+    height: 100px;
+    width: 135px;
+}
+
+.certificate{
+    background-image: linear-gradient(to right top, #e0007f, #bb3491, #934797, #6e5090, #52527f, #5b5480, #625781, #6a5982, #995b8c, #c95a82, #ec6266, #fa7b3c);
+}
+
+body{
+    background-image: linear-gradient(to right top, #2f337d, #973281, #dd4267, #fa7b3c, #ebbf12);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.submit{
+    height: 50px;
+    width: 148%;
+    border-radius: 115px;
+    background-color: #dd4600;
+}
+
+.buttn{
+    padding: 20px 327px
+}
+
+#img { 
+    width: 150px;
+}
+
+#cficon { 
+    width: 100px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Instructions </title>
+    <link rel="stylesheet" href="..//CSS/Instructions.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="..//Photos/icon.png">
+
+</head>
+
+<body id="bd">
+    <div id=btn>
+       <a href="glowing.html">
+        <button id="btn" type="button">
+            <ion-icon id="close" name="close"></ion-icon>
+        </button>
+    </a>
+    </div>
+    <center>
+        <img src="..//Photos/Instructions.png" alt="image">
+    </center>
+    <div id="div1">
+        <h1 align="center"><u> Instructions </u></h1>
+        <ol>
+            <b>
+                <em>
+                    <li>This is an online examination system, fully computerized, user friendly having advanced
+                        security features making it fair, transparent and standardized.</li>
+                    <li>Candidates are requested to take the test honestly, ethically, and should follow all the
+                        instructions.</li>
+                    <li>The examination will comprise of Objective type Multiple Choice Questions (MCQs)</li>
+                    <li>All questions are compulsory and each carries One mark.</li>
+                    <li>The total number of questions, duration of examination, will be different based on
+                        the course, the detail is available on your screen.</li>
+                    <li>The Subjects or topics covered in the exam will be as per the Syllabus.</li>
+                    <li>There will be NO NEGATIVE MARKING for the wrong answers.</li>
+                    <li>Important: Do not click the “End Test” button unless you want to leave early.</li>
+                </em>
+            </b>
+        </ol>
+        <ol>
+            <b>
+                <h2 align="center"><u>Exam attempt will not be provided if</u></h2>
+                <em>
+                    <li>Student fails to appear for exam within specified timings.</li>
+                    <li>Student does not appear the papers.</li>
+                    <li>Student appears for exam late / face lack of time.</li>
+                    <li>Student ignores instructions and rules.</li>
+                    <li>Student does not submit the exam properly.</li>
+                    <li>Student face internet of power failure problems.</li>                   
+                </em>
+            </b>
+        </ol>
+        <a href="JsQuestions.html"> 
+            <button type="button" id="btn1" class="btn btn-primary" onclick="func()"Start Test</button>
+        </a>
+    </div>
+    <script>
+        function func() {
+            return confirm("Do you want to start the test?")
+        }
+    </script>
+</body>
+</html>

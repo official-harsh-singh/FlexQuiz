@@ -1,0 +1,62 @@
+body { 
+    background-image: linear-gradient(to right top, #2f337d, #973281, #dd4267, #fa7b3c, #ebbf12);
+    background-attachment: fixed;
+}
+
+#img{
+    width: 150px;
+} 
+
+.blue-border { 
+    width: 50%;
+    border-bottom: 1px solid #cbce0d;
+    margin: 0 auto;
+    height: 16px;
+}
+
+.red-border {
+    width: 50%;
+    border-bottom: 1px solid #0051ff;
+    margin: 0 auto;
+    height: 16px;
+}
+
+#myusr { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.6rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.txt { 
+    margin:auto;
+    justify-content: center;
+    padding-bottom: 1rem!important;
+}
+
+.txt h1 { 
+    padding: 0px 400px;
+    font-size: 30px;
+    text-decoration: blink;
+    font-weight: bold;
+    color: aqua;
+}
+
+.txt p { 
+    padding: 0px 400px;
+    font-size: 30px;
+    text-decoration: blink;
+    font-weight: bold;
+}
+
+#back { 
+    margin-left: 40px;
+    margin-bottom: 30px; 
+    background-color: rgb(26, 209, 154);
+    padding: 10px 15px 10px 15px;
+}

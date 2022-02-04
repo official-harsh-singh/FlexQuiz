@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+    
+    body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to right top, #e0007f, #bb3491, #934797, #6e5090, #52527f, #5b5480, #625781, #6a5982, #995b8c, #c95a82, #ec6266, #fa7b3c);
+    }
+    
+    .container{
+    padding: 0px 0px;
+    }
+    
+    .top{
+    display: flex;
+    height: 30vh;
+    padding: 17px;
+    contain: layout;
+    }
+    
+    .top img{
+    width: 165px;
+    border-radius: 42px;
+    }
+    
+    .rightTop{
+    text-align: right;
+    width: 50%;
+    padding: 7px;
+    }
+    
+    .rightTop img{
+    border: 3px solid rgb(0, 0, 0);
+    height: 5pc;
+    width: 81px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right top, #e0007f, #bb3491, #934797, #6e5090, #52527f, #5b5480, #625781, #6a5982, #995b8c, #c95a82, #ec6266, #fa7b3c);}.rightTop select{
+    border: 2px solid rgb(255, 255, 255);
+    width: 108px;
+    text-align: center;
+    height: 26px;
+    background-color: orangered;
+    }
+    
+    .logo{
+    width: 50%;
+    }
+    
+    .navigation{
+    height:42px
+    }
+    
+    .navList{
+    display: flex;
+    list-style: none;
+    background-color: rgb(216, 210, 210);
+    height: 45px;
+    font-weight:bold;}.navList li{
+    padding: 8px 59px;
+    }
+    
+    .navList li a{
+    text-decoration: none;
+    color:rgb(18, 5, 75);
+    font-size: 24px;
+    }
+    
+    .navList li a:hover{
+    text-decoration:overline;
+    color:rgb(17, 91, 230);
+    text-transform:uppercase;
+    }
+    
+    
+    @import url('https://fonts.googleapis.com/css?family=Inconsolata:700');* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .search {
+    float: right;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: crimson;
+    border-radius: 50%;
+    transition: all 1s;
+    z-index: 4;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 25px 0 crimson;
+    }
+    
+    .icon {
+    justify-content: center;
+    text-align: center;
+    font-size: 44px;
+    }
+    
+    :hover {
+    cursor: pointer;
+    }
+    
+    .search {
+    width: 50px;
+    height: 48px;
+    border-style: none;
+    font-size: 20;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color: crimson;
+    background-color:transparent;
+    pointer-events: painted;
+    }
+    
+    input {
+    font-family: "Inconsolata", monospace;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: crimson;
+    color: white;
+    text-shadow: 0 0 10px crimson;
+    padding: 0 80px 0 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 25px 0 crimson, 0 20px 25px 0 rgb(0 0 0 / 20%);
+    transition: all 1s;
+    opacity: 0;
+    z-index: 5;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    }
+    
+    :focus {
+    width: 300px;
+    opacity: 1;
+    cursor: text;
+    }
+    
+    :focus ~ .search {
+    right: -250px;
+    background: #151515;
+    z-index: 6;
+    }
+    
+    ::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-weight: bolder;
+    }
+    
+    #img1 {
+        margin-right: 5.5pc;
+        margin-bottom: 0.6pc;
+    }
+    
+    #user {
+        margin-bottom: 2pc;
+        margin-right: 3pc;
+        background-color: orangered;
+        padding: 2px 1px 2px 1px;
+        width: 10pc;
+    }

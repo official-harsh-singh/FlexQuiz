@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Report </title>
+    <link rel="stylesheet" href="..//CSS/report.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js" ></script>
+</head>
+<body>
+    <img src="..//Photos/icon.png" alt="logo" id="main-logo">
+    <br>
+        <h1>Report Card</h1>
+    <br>
+    <br>
+    <div id="Print" style="width: 700px;">
+        <img id="img1" src="..//Photos/icon.png" alt="logo">
+        <p style="text-align: left;">
+            Dear <u>USER &nbsp;, </u><br>
+            <br>
+            Congratulations, You have successfully completed your exam on FlexiQuiz and you have got out of 100 marks
+            <br>
+            <br>
+            Our FlexiQuiz team are very gratefull that you have chosen our platform for the exam.<br>
+            <br>
+            Thanks & Regards<br>
+            Team FlexiQuiz
+        </p>
+    </div>
+    <br>
+    <br>
+    <div id="buttons1">
+    <a href="javascript:generatePDF()" id="downloadButton">
+        <button>Download</button>
+    </a>
+    </div>
+     <div id="buttons2">
+    <a href="homepage.html">
+        <button>Go to homepage</button>
+    </a>
+    </div>
+    <script>
+        async function generatePDF() {
+            var downloading = document.getElementById("Print");
+            var doc = new jsPDF('l', 'pt');
+
+            await html2canvas(downloading, {
+                width: 1000
+            }).then((canvas) => {
+                doc.addImage(canvas.toDataURL("image/png"), 'PNG', 65, 80, 900, 450);
+            })
+            doc.save("Certificate.pdf");
+        }
+    </script>
+</body>
+</html>

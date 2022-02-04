@@ -1,0 +1,35 @@
+.userlogo {
+    border-radius: 50%;
+    height: 100px;
+  }
+  
+  .pcard {
+    width: 50%;
+    word-wrap: break-word;
+    /* background-color: black; */
+    background-image: linear-gradient(to right top, #e0007f, #bb3491, #934797, #6e5090, #52527f, #5b5480, #625781, #6a5982, #995b8c, #c95a82, #ec6266, #fa7b3c);
+  
+    background-clip: border-box;
+    border: 3px outset whitesmoke ;
+    color: #ff96ad;
+  }
+  
+  body{
+    background-image: linear-gradient(to right top, #2f337d, #973281, #dd4267, #fa7b3c, #ebbf12);
+  }
+      
+  .scores{
+    background-image: linear-gradient(to right top, #e0007f, #bb3491, #934797, #6e5090, #52527f, #5b5480, #625781, #6a5982, #995b8c, #c95a82, #ec6266, #fa7b3c);
+    width: 40%;    
+    color: #ff96ad;
+    border: 3px solid whitesmoke
+  }
+  
+  .logo{
+    width: 200px;
+    height: 200px;
+  }
+  
+  .clr{
+    color: whitesmoke;
+  }   

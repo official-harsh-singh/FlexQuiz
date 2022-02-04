@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="..//Photos/icon.png">
+    <title> Exam completed </title>
+    <style>
+        
+        body { 
+            background-attachment: fixed;
+            background-image: linear-gradient(to right top, #e0007f, #bb3491, #934797, #6e5090, #52527f, #5b5480, #625781, #6a5982, #995b8c, #c95a82, #ec6266, #fa7b3c);
+        }
+        
+        .logo {
+            width: 150px;
+            height: 150px;
+        }
+        
+        #img {
+            width: 250px;
+            height: 200px;
+        }
+        </style>
+</head>
+<body onload="glowing()">
+    <img class="logo" src="..//Photos/icon.png">
+
+<center>
+    <img id="img" src="..//Photos/img-cut.png">
+    <h1> Congratulations.....!!!</h1>
+</center>
+
+    <script>
+         function glowing() { 
+            setTimeout(()=>  { 
+                window.open('glowing.html')
+            },1000)   }
+        
+    </script>
+</body>
+</html>
